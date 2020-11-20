@@ -63,6 +63,7 @@
 //!
 //!   ```rust
 //!   # use thiserror::Error;
+//!   # use std::i32; // Just for compatibility with Rust < 1.43
 //!   #
 //!   #[derive(Error, Debug)]
 //!   pub enum Error {
